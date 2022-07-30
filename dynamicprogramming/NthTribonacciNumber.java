@@ -9,8 +9,6 @@ public class NthTribonacciNumber {
         System.out.println(tribonacci(25 , new int[100]));
     }
 
-
-
     public static int tribonacci(int n, int [] memo) {
 
         if (n==0)
