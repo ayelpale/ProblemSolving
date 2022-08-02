@@ -1,13 +1,14 @@
 package dynamicprogramming;
 
 import java.util.HashMap;
-
+// Day 5
 public class ZeroOneKnapSack {
 
     static int [] P= ReadFileUtils.readLineAsIntArray(2);
     static int [] W= ReadFileUtils.readLineAsIntArray(3);
     static int maxWeight= ReadFileUtils.readLineAsInt(1);
     static HashMap <String ,Integer> memo=new HashMap<>();
+    // For GFG we need pass everything as function parameters , to avoid getting TLE error for space
 
     public static void main(String[] args) {
 
